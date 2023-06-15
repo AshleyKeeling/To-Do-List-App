@@ -15,16 +15,26 @@
     </header>
     <main>
         <div id="to-do-list-card">
-            <h3>Thursday 15th June 2023</h3>
-            <h3>To Do List</h3>
+            <h3 id="card-date">Thursday 15th June 2023</h3>
+            <h3 id="card-title">To Do List</h3>
             <div id="list-items">
-                <h4>Cook Dinner</h4>
-                <input type="checkbox" id="list-item-checkbox">
+                <div class="list-item">
+                    <h4 class="list-item-name">Cook Dinner</h4>
+                    <input type="checkbox" class="list-item-checkbox">
+                </div>
+                <div class="list-item">
+                    <h4 class="list-item-name">Go shopping</h4>
+                    <input type="checkbox" class="list-item-checkbox">
+                </div>
+                <div class="list-item">
+                    <h4 class="list-item-name">Get haircut</h4>
+                    <input type="checkbox" class="list-item-checkbox">
+                </div>
             </div>
-        </div>
-        <div>
+            
             <input type="text" id="user-input-text" placeholder="add task ...">
-            <button>+</button>
+            <button id="add-item-btn">+</button>
+            
         </div>
     </main>
     <footer></footer>
